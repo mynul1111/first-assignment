@@ -1,0 +1,69 @@
+/* head style */
+.header{
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 5px;
+    width: 1320px;
+    margin-left: 5px;
+    
+}
+.header-content{
+    color: #FFF;
+    text-align: center;
+    padding-top: 150px;
+    width: 40%;
+    padding-left: 400px;
+    /* padding-bottom: 100px; */
+}
+
+.head{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.heading{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* main content style */
+
+.new-year{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.banner2{
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 50px;
+    width: 1320px;
+    margin-left: 5px;
+}
+.banner2-content{
+    display: flex;
+    padding: 60px;
+    gap: 22%;
+}
+
+.banner2-hedeng{
+    color: #FFF;
+    width: 45%;
+}
+.Welcome{
+    font-size: 64px;
+    font-weight: 900;
+}
+.banner2-pra{
+    color: rgba(255, 255, 255, 0.80);
+}
+.banner2-link{
+    font-size: 20px;
+    font-size: 700;
+    padding-left: 40px;
+}
+.Group-img{
+    width: 28%;
+}
