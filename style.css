@@ -195,21 +195,31 @@ footer{
     background: #070211;
     height: 610px;
     margin-top: 80px;
-    /* gap: 30px; */
 }
 .last{
     width: 1320px;
     margin-left: 250px;
     color: #FFF;
-    padding-top: 200px;
+    padding-top: 100px;
     /* padding-right: 200px; */
+}
+
+hr{
+    width: 1320px;
 }
 
 .last-1{
     display: flex;
     gap: 400px;
+    padding-bottom: 50px;
 }
 
 .last-2{
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.last-3{
+    display: flex;
+    gap: 1100px;
 }
