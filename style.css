@@ -3,9 +3,9 @@
     background-image: url(images/Banner\ Image.png);
     background-repeat: no-repeat;
     height: 600px;
-    margin-top: 5px;
+    margin-top: 50px;
     width: 1320px;
-    margin-left: 5px;
+    margin-left: 250px;
     
 }
 .header-content{
@@ -14,7 +14,7 @@
     padding-top: 150px;
     width: 40%;
     padding-left: 400px;
-    /* padding-bottom: 100px; */
+    position: relative;
 }
 
 .head{
@@ -33,14 +33,29 @@
     text-align: center;
     padding-top: 50px;
 }
-
+.new-year-head1{
+    color: #F00;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new-year-head2{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.new-year-head3{
+    color: #070211;
+    font-size: 48px;
+    font-size: 48px;
+}
 .banner2{
     background-image: url(images/Vectorrr.png);
     background-repeat: no-repeat;
     height: 600px;
     margin-top: 50px;
     width: 1320px;
-    margin-left: 5px;
+    margin-left: 250px;
 }
 .banner2-content{
     display: flex;
@@ -63,7 +78,138 @@
     font-size: 20px;
     font-size: 700;
     padding-left: 40px;
+    background: none;
+    border: none;
+    color: white;
 }
 .Group-img{
     width: 28%;
+}
+
+.banner3{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 480px;
+    width: 1320px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 80px;
+    padding-top: 200px;
+    border-radius: 5px;
+}
+.banner3-content{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.cl{
+    color: #F00;
+}
+.banner3-btn{
+    color: #FFF;
+    background: #F00;
+    padding-left:  30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.banner4{
+    width: 1320px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.banner4-head{
+
+}
+.banner4-prodact{
+    text-align: center;
+}
+
+.ban4{
+    color: #F00;
+}
+
+.ban4-1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.ban4-2{
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+}
+
+td{
+    padding: 10px;
+}
+
+.banner5{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 480px;
+    width: 1320px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 80px;
+    padding-top: 80px;
+    border-radius: 5px;
+}
+
+.banner5-content{
+    width: 60%;
+    padding-left: 250px;
+}
+
+.banner5-head{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.banner5-form{
+    display: inline;
+}
+.banner5-email{
+    width: 500px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 100px 0px 0px 100px;
+    border: none;
+    padding-left: 30px;
+}
+.banner5-btn{
+    background-color: #F00;
+    width: 180px;
+    height: 60px;
+    border-radius: 0px 100px 100px 0px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    background: #070211;
+    height: 610px;
+    margin-top: 80px;
+    /* gap: 30px; */
+}
+.last{
+    width: 1320px;
+    margin-left: 250px;
+    color: #FFF;
+    padding-top: 200px;
+    /* padding-right: 200px; */
+}
+
+.last-1{
+    display: flex;
+    gap: 400px;
+}
+
+.last-2{
+    text-align: center;
 }

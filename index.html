@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first-assignment</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,9 +24,10 @@
     <main>
         <section>
             <div class="new-year">
-                <h1>65% OFF</h1>
-                <h6>OUR HOLIDAY DEALS ARE BETTER</h6>
-                <h3>ALL CATEGORIES</h3>
+                <h1 class="new-year-head1">65% OFF</h1>
+                <h6 class="new-year-head2">OUR HOLIDAY DEALS ARE BETTER</h6>
+                <h3 class="
+                new-year-head3">ALL CATEGORIES</h3>
                 <img src="images/New Year Photo.png" alt="">
             </div>
         </section>
@@ -32,59 +37,77 @@
                 <div class="banner2-hedeng">
                     <h1 class="Welcome">Welcome to midnight party</h1>
                     <p class="banner2-pra">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod</p>
-                    <h4 class="banner2-link">Join Now</h4>
+                    <!-- <h4 class="banner2-link">Join Now</h4> -->
+                    <button class="banner2-link">Join Now</button>
                 </div>
                 <img class="Group-img" src="images/Group 70.png" alt="">
             </div>
         </section>
 
-        <section>
-            <div>
-                <h3>THE BEST GIFTS</h3>
-                <h1>Our Awesome Portfolio</h1>
-                <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.</p>
+        <section class="banner3">
+            <div class="banner3-content">
+                <p> <span class="cl">Place:</span> New Park Hotel</p>
+                <p> <span class="cl">Date:</span> 31 December Night 2023</p>
+                <p> <span class="cl">Time:</span> Evening 7.30 pm to 12.30 am</p>
             </div>
-            <div>
+            <button class="banner3-btn"><p>Join Now</p></button>
+        </section>
+
+        <section class="banner4">
+            <div class="banner4-head">
+                <h3 class="ban4">THE BEST GIFTS</h3>
+                <h1 class="ban4-1">Our Awesome Portfolio</h1>
+                <p class="ban4-2">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada.Ipsum sed sodales risus ut pellentesque vel euismod.</p>
+                <!-- <p class="ban4-2">Ipsum sed sodales risus ut pellentesque vel euismod.</p> -->
+            </div>
+            <div class="banner4-prodact">
                 <table>
-                    <tr><img src="images/Rectangle 6.png" alt=""></tr>
-                    <tr><img src="images/Rectangle 6.png" alt=""></tr>
-                    <tr><img src="images/Rectangle 6.png" alt=""></tr>
-                    <tr><img src="images/Rectangle 6.png" alt=""></tr>
-                    <tr><img src="images/Rectangle 6.png" alt=""></tr>
-                    <tr><img src="images/Rectangle 6.png" alt=""></tr>
+                    <tr>
+                        <td><img src="images/Rectangle 3.png" alt=""></td>
+                        <td><img src="images/Rectangle 4.png" alt=""></td>
+                        <td><img src="images/Rectangle 5.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/Rectangle 6.png" alt=""></td>
+                        <td><img src="images/Rectangle 7.png" alt=""></td>
+                        <td><img src="images/Rectangle 8.png" alt=""></td>
+                    </tr>
                 </table>
             </div>
         </section>
 
-        <section>
-            <div>
+        <section class="banner5">
+            <div class="banner5-content">
                 <img src="images/Group 61.png" alt="">
-                <h1>Subscribe Newsletter</h1>
+                <h1 class="banner5-head">Subscribe Newsletter</h1>
                 <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. </p>
-                <form action="">
-                    <input type="email" placeholder="user@gmail.com" name="" id="">
-                    <button>Subscribe</button>
+                <br>
+                <form class="banner5-form">
+                    <input class="banner5-email" type="email" placeholder="user@gmail.com" name="" id="">
+                    <button class="banner5-btn">Subscribe</button>
                 </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <div>
-            <p>44, Big Building Roosevelt Street</p>
-            <p>Beach Gardens Florida 33410</p>
-        </div>
-        <hr>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-        <hr>
-        <div>
-            <p>2017, All Rights Reserved.</p>
-            <p>Unsubscribe</p>
+        <div class="last">
+            <div class="last-1">
+                <p>44, Big Building Roosevelt Street</p>
+                <p>Beach Gardens Florida 33410</p>
+            </div>
+            <hr>
+            <div class="last-2">
+                <img src="images/Facebook.png" alt="">
+                <img src="images/Instagram.png" alt="">
+                <img src="images/Twitter.png" alt="">
+                <img src="images/Instagram.png" alt="">
+            </div>
+            <hr>
+            <div>
+                <p>2017, All Rights Reserved.</p>
+                <p>Unsubscribe</p>
+            </div>
         </div>
     </footer>
 </body>
