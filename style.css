@@ -141,6 +141,7 @@
     font-size: 20px;
     font-weight: 400;
     width: 60%;
+    color: rgba(7, 2, 17, 0.60);
 }
 
 td{
@@ -163,6 +164,9 @@ td{
     padding-left: 250px;
 }
 
+.banner5-dis{
+    color: rgba(7, 2, 17, 0.60);
+}
 .banner5-head{
     font-size: 48px;
     font-weight: 900;
@@ -201,7 +205,8 @@ footer{
     margin-left: 250px;
     color: #FFF;
     padding-top: 100px;
-    /* padding-right: 200px; */
+    font-size: 20px;
+    font-weight: 500;
 }
 
 hr{
@@ -213,13 +218,25 @@ hr{
     gap: 400px;
     padding-bottom: 50px;
 }
+.last-icon{
+    /* display: block; */
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.last-1-1{
+    display: flex;
+    margin-left: 350px;
+}
 
 .last-2{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    display: flex;
+    gap: 30px;
+    padding-left: 500px;
 }
 .last-3{
     display: flex;
-    gap: 1100px;
+    gap: 1000px;
 }
