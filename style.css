@@ -17,12 +17,12 @@
     position: relative;
 }
 
-.head{
+.Happy-New-Year{
     font-size: 32px;
     font-weight: 400;
 }
 
-.heading{
+.New-Year-Party{
     font-size: 72px;
     font-weight: 900;
 }
@@ -49,6 +49,10 @@
     font-size: 48px;
     font-size: 48px;
 }
+
+
+/* banner2 */
+
 .banner2{
     background-image: url(images/Vectorrr.png);
     background-repeat: no-repeat;
@@ -67,14 +71,14 @@
     color: #FFF;
     width: 45%;
 }
-.Welcome{
+.banner2-Welcome{
     font-size: 64px;
     font-weight: 900;
 }
-.banner2-pra{
+.banner2-pragrap{
     color: rgba(255, 255, 255, 0.80);
 }
-.banner2-link{
+.banner2-btn{
     font-size: 20px;
     font-size: 700;
     padding-left: 40px;
@@ -82,11 +86,13 @@
     border: none;
     color: white;
 }
-.Group-img{
+.banner2-img{
     width: 28%;
 }
 
-.banner3{
+/* Place Time Date */
+
+.place-time-date{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     height: 480px;
     width: 1320px;
@@ -96,15 +102,15 @@
     padding-top: 200px;
     border-radius: 5px;
 }
-.banner3-content{
+.place-time-date-content{
     font-size: 32px;
     font-weight: 600;
 }
 
-.cl{
+.span-pragrap-color{
     color: #F00;
 }
-.banner3-btn{
+.place-time-date-btn{
     color: #FFF;
     background: #F00;
     padding-left:  30px;
@@ -115,40 +121,45 @@
     font-weight: 700;
 }
 
+/* THE BEST GIFTS*/
 
-.banner4{
+.the-best-gifts{
     width: 1320px;
     margin-left: 250px;
     margin-top: 80px;
 }
-.banner4-head{
+.the-best-gifts-content{
 
 }
-.banner4-prodact{
-    text-align: center;
-}
 
-.ban4{
+.gift{
     color: #F00;
 }
 
-.ban4-1{
+.portfolio{
     font-size: 50px;
     font-weight: 900;
 }
 
-.ban4-2{
+.dolor{
     font-size: 20px;
     font-weight: 400;
     width: 60%;
     color: rgba(7, 2, 17, 0.60);
 }
 
+.prodact{
+    text-align: center;
+}
+
 td{
     padding: 10px;
 }
 
-.banner5{
+
+/* Subscribe Newsletter */
+
+.subscribe{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     height: 480px;
     width: 1320px;
@@ -159,23 +170,24 @@ td{
     border-radius: 5px;
 }
 
-.banner5-content{
+.subscribe-content{
     width: 60%;
     padding-left: 250px;
 }
 
-.banner5-dis{
-    color: rgba(7, 2, 17, 0.60);
-}
-.banner5-head{
+.subscribe-head{
     font-size: 48px;
     font-weight: 900;
 }
 
-.banner5-form{
+.subscribe-pragrap{
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.subscribe-form{
     display: inline;
 }
-.banner5-email{
+.form-email{
     width: 500px;
     height: 60px;
     font-size: 18px;
@@ -184,7 +196,7 @@ td{
     border: none;
     padding-left: 30px;
 }
-.banner5-btn{
+.form-btn{
     background-color: #F00;
     width: 180px;
     height: 60px;
@@ -195,12 +207,15 @@ td{
     font-weight: 600;
 }
 
+
+/* footer */
+
 footer{
     background: #070211;
     height: 610px;
     margin-top: 80px;
 }
-.last{
+.footer-all{
     width: 1320px;
     margin-left: 250px;
     color: #FFF;
@@ -209,15 +224,16 @@ footer{
     font-weight: 500;
 }
 
-hr{
-    width: 1320px;
-}
-
-.last-1{
+.footer-content{
     display: flex;
     gap: 400px;
     padding-bottom: 50px;
 }
+
+hr{
+    width: 1320px;
+}
+
 .last-icon{
     /* display: block; */
     padding-top: 20px;
@@ -228,7 +244,7 @@ hr{
     margin-left: 350px;
 }
 
-.last-2{
+.footer-icon{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
